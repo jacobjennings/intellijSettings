@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="prepend protobufs with package" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/prependPackageToProtobufs" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/src/main/scala/protobufs" />
+    </exec>
+  </tool>
+  <tool name="scalabuff" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/sbt" />
+      <option name="PARAMETERS" value="&quot;run --proto_path=../kiku/kiku-server/src/main/protobufs --scala_out=../kiku/kiku-server/src/main/scala/protobufs&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/../../ScalaBuff" />
+    </exec>
+  </tool>
+</toolSet>
