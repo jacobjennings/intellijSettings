@@ -1,0 +1,7 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="CollapseSelection" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="meta period" />
+  </action>
+</keymap>
