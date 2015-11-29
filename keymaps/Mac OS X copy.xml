@@ -1,38 +1,32 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
-  <action id="CollapseSelection" />
   <action id="CompileDirty">
-    <keyboard-shortcut first-keystroke="meta F9" />
-    <keyboard-shortcut first-keystroke="meta B" />
+    <keyboard-shortcut first-keystroke="meta f9" />
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift meta N" />
-    <keyboard-shortcut first-keystroke="shift meta O" />
-  </action>
   <action id="SelectIn">
-    <keyboard-shortcut first-keystroke="alt F1" />
-    <keyboard-shortcut first-keystroke="shift meta J" />
-  </action>
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="meta F2" />
-    <keyboard-shortcut first-keystroke="meta PERIOD" />
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="control alt ENTER" />
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
 </keymap>
